@@ -16,7 +16,6 @@
                 console.log("No fonts installed.");
             }
         })();
-
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
@@ -33,7 +32,7 @@
             font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
         }
 
-        .wf-active >* {
+        .wf-active>* {
             font-family: 'open-sans', apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
         }
 
@@ -48,14 +47,14 @@
         .wf-active h5,
         .wf-active h6 {
             font-family: 'open-sans', apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-     
+
 
         }
 
         .wf-active p {
-        font-size: 16px;
-        font-size: 1rem;
-        line-height: 1.5;
+            font-size: 16px;
+            font-size: 1rem;
+            line-height: 1.6;
 
         }
 
@@ -63,171 +62,210 @@
             font-weight: 300;
         }
 
-     * {
-  box-sizing: border-box;
-}
+        * {
+            box-sizing: border-box;
+        }
 
-*::before,
-*::after {
-  box-sizing: inherit;
-}
+        *::before,
+        *::after {
+            box-sizing: inherit;
+        }
 
-html {
-  font-size: 100%;
-  overflow-y: scroll;
-  min-height: 100%;
-}
+        html {
+            font-size: 100%;
+            overflow-y: scroll;
+            min-height: 100%;
+        }
 
-body {
-  font-size: 1em;
-  font-family: "open-sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  color: #333;
-  font-style: normal;
-  font-weight: 400;
-  cursor: pointer;
-  background: #ddd;
-}
+        body {
+            font-size: 1em;
+            font-family: 'open-sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: #333;
+            line-height: 1.7;
+            font-style: normal;
+            font-weight: 400;
+            cursor: pointer;
+            background: #ddd;
+        }
 
-.app-container {
-  max-width: 50rem;
-  margin: 2em auto;
-  background: #eee;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-}
+        .app-container {
+            max-width: 50rem;
+            margin: 2em auto;
+            background: #eee;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "open-sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  margin: 0.35em 0;
-}
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'open-sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0.35em 0;
+        }
 
-h1 {
-  font-size: 36px;
-  font-size: 2.25rem;
-  line-height: 1.3333333333;
-  font-weight: 700;
-}
+        h1 {
+            font-size: 36px;
+            font-size: 2.25rem;
+            line-height: 1.3333333333;
+            font-weight: 700;
+        }
 
-h2 {
-  font-size: 28px;
-  font-size: 1.75rem;
-  line-height: 1.7142857143;
-  font-weight: 700;
-}
+        h2 {
+            font-size: 28px;
+            font-size: 1.75rem;
+            line-height: 1.7142857143;
+            font-weight: 700;
+        }
 
-h3 {
-  font-size: 24px;
-  font-size: 1.5rem;
-  line-height: 1;
-  font-weight: 600;
-}
+        h3 {
+            font-size: 24px;
+            font-size: 1.5rem;
+            line-height: 1;
+            font-weight: 600;
+        }
 
-h4 {
-  font-size: 18px;
-  font-size: 1.125rem;
-  line-height: 1.3333333333;
-  font-weight: 600;
-}
+        h4 {
+            font-size: 18px;
+            font-size: 1.125rem;
+            line-height: 1.3333333333;
+            font-weight: 600;
+        }
 
-h5 {
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.5;
-  font-weight: 500;
-}
+        h5 {
+            font-size: 16px;
+            font-size: 1rem;
+            line-height: 1.5;
+            font-weight: 500;
+        }
 
-h6 {
-  font-size: 14px;
-  font-size: 0.875rem;
-  line-height: 1.7142857143;
-  font-weight: 400;
-}
+        h6 {
+            font-size: 14px;
+            font-size: 0.875rem;
+            line-height: 1.7142857143;
+            font-weight: 400;
+        }
 
-p, p.light {
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.5;
-  font-weight: 400;
-  color: #333;
-  font-size-adjust: 100%;
-  white-space: break;
-}
+        p,
+        p.light {
+            font-size: 16px;
+            font-size: 1rem;
+            line-height: 1.5;
+            font-weight: 400;
+            color: #333;
+            font-size-adjust: 100%;
+            white-space: break;
+        }
 
-p.light {
-  font-weight: 300;
-}
-
-
-
-[class^="item-container--"] {
-  padding: 1em;
-  background: #fff;
-  margin: 2em 0;
-  flex: 1;
-  justify-content: stretch;
-  min-height: 10em;
-  clear: both;
-}
-[class^="item-container--"]:first-child {
-  margin-top: 0;
-}
-[class^="item-container--"]:nth-child(odd) {
-  color: #AC1E2D;
-}
+        p.light {
+            font-weight: 300;
+        }
 
 
 
+        [class^="item-container--"] {
+            padding: 1em;
+            background: #fff;
+            margin: 2em 0;
+            flex: 1;
+            justify-content: stretch;
+            min-height: 10em;
+            clear: both;
+        }
+
+        [class^="item-container--"]:first-child {
+            margin-top: 0;
+        }
+
+        [class^="item-container--"]:nth-child(odd) {
+            color: #AC1E2D;
+        }
     </style>
 
 </head>
 
 <body>
-    
-    
-<div class="app-container">
-	<div class="item-container--1">
-			<h1>Open Sans</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dui ut elit malesuada rhoncus. Nam viverra mollis enim, ut blandit dui condimentum quis. Phasellus porttitor congue sollicitudin. Curabitur malesuada nulla nec arcu sollicitudin, quis fringilla sem tempus. Aenean sit amet massa at urna sollicitudin semper. Curabitur at leo lacus. Proin velit sem, ullamcorper quis lorem eu, mattis aliquet risus. </p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dui ut elit malesuada rhoncus. Nam viverra mollis enim, ut blandit dui condimentum quis. Phasellus porttitor congue sollicitudin. Curabitur malesuada nulla nec arcu sollicitudin, quis fringilla sem tempus. Aenean sit amet massa at urna sollicitudin semper. Curabitur at leo lacus. Proin velit sem, ullamcorper quis lorem eu, mattis aliquet risus.</p>
-	</div>
-	<div class="item-container--2">
-		<header>
-			<h2>Open Sans</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dui ut elit malesuada rhoncus. Nam viverra mollis enim, ut blandit dui condimentum quis. Phasellus porttitor congue sollicitudin. Curabitur malesuada nulla nec arcu sollicitudin, quis fringilla sem tempus. Aenean sit amet massa at urna sollicitudin semper. Curabitur at leo lacus. Proin velit sem, ullamcorper quis lorem eu, mattis aliquet risus.</p>
-		</header>
-	</div>
-	<div class="item-container--3">
-		<h3>Open Sans h3</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dui ut elit malesuada rhoncus. Nam viverra mollis enim, ut blandit dui condimentum quis. Phasellus porttitor congue sollicitudin. Curabitur malesuada nulla nec arcu sollicitudin, quis fringilla sem tempus. Aenean sit amet massa at urna sollicitudin semper. Curabitur at leo lacus. Proin velit sem, ullamcorper quis lorem eu, mattis aliquet risus.</p>
-<p>
-Phasellus venenatis suscipit purus eu rutrum. Fusce mollis enim a velit efficitur dapibus. Mauris ligula ex, tempor ac lacinia id, facilisis id nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec id blandit eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam odio orci, rutrum id sapien sit amet, finibus suscipit turpis. Phasellus vestibulum nec turpis non laoreet. Integer interdum felis sit amet orci lobortis laoreet. Morbi mi augue, volutpat et risus quis, eleifend lobortis ante.
-</p>
-	</div>
-	<div class="item-container--4">
-		<h4>Open Sans h4</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dui ut elit malesuada rhoncus. Nam viverra mollis enim, ut blandit dui condimentum quis. Phasellus porttitor congue sollicitudin. Curabitur malesuada nulla nec arcu sollicitudin, quis fringilla sem tempus. Aenean sit amet massa at urna sollicitudin semper. Curabitur at leo lacus. Proin velit sem, ullamcorper quis lorem eu, mattis aliquet risus.</p>
-		
-	</div>
-	<div class="item-container--5">
-		<h5>Open Sans h5</h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dui ut elit malesuada rhoncus. Nam viverra mollis enim, ut blandit dui condimentum quis. Phasellus porttitor congue sollicitudin. Curabitur malesuada nulla nec arcu sollicitudin, quis fringilla sem tempus. Aenean sit amet massa at urna sollicitudin semper. Curabitur at leo lacus. Proin velit sem, ullamcorper quis lorem eu, mattis aliquet risus.</p>
-	</div>
-	<div class="item-container--6">
-		<h6>Open Sans h6</h6>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dui ut elit malesuada rhoncus. Nam viverra mollis enim, ut blandit dui condimentum quis. Phasellus porttitor congue sollicitudin. Curabitur malesuada nulla nec arcu sollicitudin, quis fringilla sem tempus. Aenean sit amet massa at urna sollicitudin semper. Curabitur at leo lacus. Proin velit sem, ullamcorper quis lorem eu, mattis aliquet risus.</p>
-	</div>
 
-    <div class="item-container">
 
-    <h2>Webfont Loader Code</h2>
-    <script src="https://embed.cacher.io/86573c820e63fe15adac4591027b12a5220afc10.js?a=ecf68b4ea6cc373e7758fb414f626956&t=monokai_sublime"></script>
+    <div class="app-container">
+        <div class="item-container--1">
+            <h1>Open Sans</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dui ut elit malesuada rhoncus. Nam
+                viverra mollis enim, ut blandit dui condimentum quis. Phasellus porttitor congue sollicitudin.
+                Curabitur malesuada nulla nec arcu sollicitudin, quis fringilla sem tempus. Aenean sit amet massa at
+                urna sollicitudin semper. Curabitur at leo lacus. Proin velit sem, ullamcorper quis lorem eu, mattis
+                aliquet risus. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dui ut elit malesuada rhoncus. Nam
+                viverra mollis enim, ut blandit dui condimentum quis. Phasellus porttitor congue sollicitudin.
+                Curabitur malesuada nulla nec arcu sollicitudin, quis fringilla sem tempus. Aenean sit amet massa at
+                urna sollicitudin semper. Curabitur at leo lacus. Proin velit sem, ullamcorper quis lorem eu, mattis
+                aliquet risus.</p>
+        </div>
+        <div class="item-container--2">
+            <header>
+                <h2>Open Sans</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dui ut elit malesuada rhoncus. Nam
+                    viverra mollis enim, ut blandit dui condimentum quis. Phasellus porttitor congue sollicitudin.
+                    Curabitur malesuada nulla nec arcu sollicitudin, quis fringilla sem tempus. Aenean sit amet massa
+                    at urna sollicitudin semper. Curabitur at leo lacus. Proin velit sem, ullamcorper quis lorem eu,
+                    mattis aliquet risus.</p>
+            </header>
+        </div>
+        <div class="item-container--3">
+            <h3>Open Sans h3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dui ut elit malesuada rhoncus. Nam
+                viverra mollis enim, ut blandit dui condimentum quis. Phasellus porttitor congue sollicitudin.
+                Curabitur malesuada nulla nec arcu sollicitudin, quis fringilla sem tempus. Aenean sit amet massa at
+                urna sollicitudin semper. Curabitur at leo lacus. Proin velit sem, ullamcorper quis lorem eu, mattis
+                aliquet risus.</p>
+            <p>
+                Phasellus venenatis suscipit purus eu rutrum. Fusce mollis enim a velit efficitur dapibus. Mauris
+                ligula ex, tempor ac lacinia id, facilisis id nisi. Pellentesque habitant morbi tristique senectus et
+                netus et malesuada fames ac turpis egestas. Donec id blandit eros. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Etiam odio orci, rutrum id sapien sit amet, finibus suscipit turpis.
+                Phasellus vestibulum nec turpis non laoreet. Integer interdum felis sit amet orci lobortis laoreet.
+                Morbi mi augue, volutpat et risus quis, eleifend lobortis ante.
+            </p>
+        </div>
+        <div class="item-container--4">
+            <h4>Open Sans h4</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dui ut elit malesuada rhoncus. Nam
+                viverra mollis enim, ut blandit dui condimentum quis. Phasellus porttitor congue sollicitudin.
+                Curabitur malesuada nulla nec arcu sollicitudin, quis fringilla sem tempus. Aenean sit amet massa at
+                urna sollicitudin semper. Curabitur at leo lacus. Proin velit sem, ullamcorper quis lorem eu, mattis
+                aliquet risus.</p>
+
+        </div>
+        <div class="item-container--5">
+            <h5>Open Sans h5</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dui ut elit malesuada rhoncus. Nam
+                viverra mollis enim, ut blandit dui condimentum quis. Phasellus porttitor congue sollicitudin.
+                Curabitur malesuada nulla nec arcu sollicitudin, quis fringilla sem tempus. Aenean sit amet massa at
+                urna sollicitudin semper. Curabitur at leo lacus. Proin velit sem, ullamcorper quis lorem eu, mattis
+                aliquet risus.</p>
+        </div>
+        <div class="item-container--6">
+            <h6>Open Sans h6</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dui ut elit malesuada rhoncus. Nam
+                viverra mollis enim, ut blandit dui condimentum quis. Phasellus porttitor congue sollicitudin.
+                Curabitur malesuada nulla nec arcu sollicitudin, quis fringilla sem tempus. Aenean sit amet massa at
+                urna sollicitudin semper. Curabitur at leo lacus. Proin velit sem, ullamcorper quis lorem eu, mattis
+                aliquet risus.</p>
+        </div>
+
+        <div class="item-container">
+
+            <h2>Webfont Loader Code</h2>
+            <script src="https://embed.cacher.io/86573c820e63fe15adac4591027b12a5220afc10.js?a=ecf68b4ea6cc373e7758fb414f626956&t=monokai_sublime"></script>
+
+        </div>
+
+
 
     </div>
- 
-
-
-</div>
 
 
 
