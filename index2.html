@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ropo Sans Pro &amp; Roboto</title>
+
+    <link rel="preconnect" href="//use.typekit.net/" crossorigin>
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js" async></script>
+    <script>
+        (function () {
+            if (sessionStorage.fonts) {
+                console.log("Fonts installed.");
+                document.documentElement.classList.add('wf-active');
+            } else {
+                console.log("No fonts installed.");
+            }
+        })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1,
+        .h1,
+        h2,
+        .h2,
+        h3,
+        .h3,
+        p,
+        a,
+        .container {
+            font-family: Georgia, serif;
+        }
+
+        p {
+            font-family: sans-serif;
+        }
+
+        .wf-active h1,
+        .wf-active .h1,
+        .wf-active h2,
+        .wf-active .h2,
+        .wf-active h3,
+        .wf-active .h3,
+        .wf-active h4,
+        .wf-active a,
+        .wf-active h5,
+        .wf-active h6 {
+            font-family: "ropa-sans-pro", sans-serif;
+            font-weight: 700;
+
+        }
+
+        .wf-active p {
+            font-family: 'roboto', sans-serif;
+            font-weight: 400;
+            line-height: 1.8;
+            font-size: 1rem;
+
+        }
+
+        .wf-active p.light {
+            font-family: 'roboto', sans-serif;
+            font-weight: 300;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        html {
+            background:
+                height: 100%;
+            font-size: 1em;
+
+        }
+
+
+
+        body {
+            font-family: "ropa-sans-pro", sans-serif;
+            background: #f44336;
+            color: #333;
+            font-size: 1em;
+            line-height: 1.5;
+            font-weight: 400;
+            margin: 3em auto;
+        }
+
+        article {
+            display: grid;
+            grid-template-columns:
+                [full-start] minmax(1em, 1fr) [main-start] minmax(0, 80rem) [main-end] minmax(1em, 1fr) [full-end];
+            grid-gap: 2em;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #ac1e2d;
+        }
+
+        h2 {
+            font-size: 2.375rem;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+
+        h3 {
+            font-size: 2rem;
+            font-weight: 500;
+            color: #444;
+            margin-bottom: 0.5em;
+        }
+
+        h4 {
+            font-size: 1.85rem;
+
+            font-weight: 500;
+        }
+
+        h5 {
+            color: #D4ca9e;
+            font-size: 1.5rem;
+            margin-bottom: 0.375em;
+
+        }
+
+        h6 {
+            margin-bottom: 1em;
+            font-size: 1.3rem;
+            color: #191919;
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.8;
+        }
+
+        p+p {
+            padding: 0.75em 0;
+            line-height: 1.6;
+
+        }
+
+
+        section {
+            grid-column: main;
+            grid-row:
+                padding: 2em 0;
+        }
+
+        figure {
+            grid-column: full;
+        }
+
+        aside {
+            grid-column: full;
+        }
+
+        /* Demo Specific Styles */
+        body {
+            padding: 2em 0;
+        }
+
+        article>* {
+            background-color: #e6e7e8;
+            padding: 2em;
+        }
+
+        figure {
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+
+        .card {
+            display: grid;
+            grid-template-columns: 1fr;
+            margin: 1em 0;
+
+        }
+
+        section:nth-child(2n) p {
+            font-weight: 300;
+        }
+
+        .sub-section {
+            margin-top: 1em;
+        }
+
+        .card-dark {
+            background: #333;
+            padding: 2em;
+            color: #fff;
+        }
+    </style>
+
+</head>
+
+<body>
+    <article data-theme="lincoln">
+        <section>
+            <h1>Ropa Sans Pro H1</h1>
+            <p>Sed autem necessitatibus quibusdam rerum suscipit aspernatur. Aut voluptatem animi rerum vero et et.
+                Explicabo vel pariatur dolorem voluptas blanditiis quia magni eos. Ab temporibus nam tempora.</p>
+            <p>Pariatur consequatur blanditiis voluptatem. Error in esse temporibus quia. Perferendis molestiae velit
+                deleniti deserunt. Provident qui ullam adipisci optio. Molestias similique et deserunt sint molestias
+                autem non autem. Nemo itaque repellat assumenda nostrum qui eos porro dolorum.</p>
+        </section>
+
+        <section>
+            <div class="sub-section">
+                <h2>Ropa Sans Pro H2</h2>
+                <p>Roboto Light</p>
+                <p>Ea a assumenda rerum. Omnis ut voluptatem asperiores eius omnis laborum et. Pariatur et eos expedita
+                    eos sint modi est ut. Rerum molestiae magni quasi dolorum consequatur harum molestiae. Aut sunomnis
+                    atque deserunt molestiae. Repellendus aut unde impedit fugiat quia qui.</p>
+                <p>Saepe voluptas officia corporis sed. Consequatur nam aperiam enim necessitatibus non doloribus quis
+                    ullam. Qui aut quisquam voluptatem neque quidem harum.</p>
+            </div>
+        </section>
+
+        <section data-theme="lincoln">
+
+            <h3>Ropa Sans H3</h3>
+
+            <p>Roboto Regular</p>
+
+            <p>Ea a assumenda rerum. Omnis ut voluptatem asperiores eius omnis laborum et. Pariatur et eos expedita eos
+                sint modi est ut. Rerum molestiae magni quasi dolorum consequatur harum molestiae. Aut sunomnis atque
+                deserunt molestiae. Repellendus aut unde impedit fugiat quia qui.</p>
+            <p>Saepe voluptas officia corporis sed. Consequatur nam aperiam enim necessitatibus non doloribus quis
+                ullam. Qui aut quisquam voluptatem neque quidem harum.</p>
+            <p>Sed autem necessitatibus quibusdam rerum suscipit aspernatur. Aut voluptatem animi rerum vero et et.
+                Explicabo vel pariatur dolorem voluptas blanditiis quia magni eos. Ab temporibus nam tempora.</p>
+            <p>Pariatur consequatur blanditiis voluptatem. Error in esse temporibus quia. Perferendis molestiae velit
+                deleniti deserunt. Provident qui ullam adipisci optio. Molestias similique et deserunt sint molestias
+                autem non autem. Nemo itaque repellat assumenda nostrum qui eos porro dolorum.</p>
+        </section>
+
+
+        <section class="card">
+            <h4 class="card-header">Ropa Sans Pro in an H4</h4>
+            <p>Ea a assumenda rerum. Omnis ut voluptatem asperiores eius omnis laborum et. Pariatur et eos expedita eos
+                sint modi est ut. Rerum molestiae magni quasi dolorum consequatur harum molestiae. Aut sunomnis atque
+                deserunt molestiae. Repellendus aut unde impedit fugiat quia qui.</p>
+            <p>Saepe voluptas officia corporis sed. Consequatur nam aperiam enim necessitatibus non doloribus quis
+                ullam. Qui aut quisquam voluptatem neque quidem harum.</p>
+        </section>
+        <section class="card-dark">
+            <h5 class="card-header">Ropa Sans Pro in an H5</h5>
+
+            <p>Ea a assumenda rerum. Omnis ut voluptatem asperiores eius omnis laborum et. Pariatur et eos expedita eos
+                sint modi est ut. Rerum molestiae magni quasi dolorum consequatur harum molestiae. Aut sunomnis atque
+                deserunt molestiae. Repellendus aut unde impedit fugiat quia qui.</p>
+            <p>Saepe voluptas officia corporis sed. Consequatur nam aperiam enim necessitatibus non doloribus quis
+                ullam. Qui aut quisquam voluptatem neque quidem harum.</p>
+        </section>
+
+        <section class="card">
+            <h6 class="card-header">Ropa Sans Pro in an H6</h6>
+            <p>Ea a assumenda rerum. Omnis ut voluptatem asperiores eius omnis laborum et. Pariatur et eos expedita eos
+                sint modi est ut. Rerum molestiae magni quasi dolorum consequatur harum molestiae. Aut sunomnis atque
+                deserunt molestiae. Repellendus aut unde impedit fugiat quia qui.</p>
+            <p>Saepe voluptas officia corporis sed. Consequatur nam aperiam enim necessitatibus non doloribus quis
+                ullam. Qui aut quisquam voluptatem neque quidem harum.</p>
+        </section>
+
+    </article>
+
+    <script>
+        WebFontConfig = {
+            custom: {
+                families: [
+                    'ropa-sans-pro',
+                    'roboto',
+                    'roboto-condensed'
+                ],
+                urls: [
+                    '//use.typekit.net/cdj8dtz.css'
+                ]
+            },
+            active: function () {
+                sessionStorage.fonts = true;
+            },
+            timeout: 2000
+        };
+    </script>
+</body>
+
+</html>
